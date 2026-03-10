@@ -7,7 +7,7 @@ export default function Home() {
       <main>
         <Box>
           <Typography variant="h2" gutterBottom>
-            Bienvenido a iLangue
+            Bienvenido a iSimi
           </Typography>
           <Typography sx={{ fontSize: "20px", paddingBottom: "20px" }}>
             ¿Buscas aprender lenguas nativas ?
@@ -22,12 +22,15 @@ export default function Home() {
         >
           <Button
             variant="contained"
-            sx={{ background: "#3C8D80", color: "#ffff" }}
+            sx={{ background: "rgba(26, 45, 31,1)", color: "#ffff" }}
+
           >
-            Enter and watch
+            Ven y aprende
           </Button>
         </Box>
       </main>
     </div>
   );
 }
+
+  //          sx={{ background: "#3C8D80", color: "#ffff" }}
