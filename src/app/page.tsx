@@ -1,5 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,13 +21,15 @@ export default function Home() {
             justifyContent: "flex-end",
           }}
         >
-          <Button
+          <Link href="/home" passHref>
+            <Button         
             variant="contained"
             sx={{ background: "rgba(26, 45, 31,1)", color: "#ffff" }}
-
           >
             Ven y aprende
           </Button>
+          </Link>
+          
         </Box>
       </main>
     </div>
